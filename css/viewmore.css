@@ -1,0 +1,127 @@
+.destination-container,
+.blog-container {
+  margin-bottom: 2rem;
+  row-gap: 3.5rem;
+}
+
+.breadcrumb {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.breadcrumb-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb-title i {
+  font-size: 1rem;
+  color: var(--black);
+  color: var(--description-color);
+}
+
+.breadcrumb-link {
+  font-size: var(--small-font-size);
+  color: var(--description-color);
+  font-weight: 400;
+}
+
+.breadcrumb-active {
+  font-size: var(--normal-font-size);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.article-title {
+  text-align: center;
+}
+
+.article-headline {
+  font-size: var(--h1-font-size);
+  font-weight: 700;
+}
+
+.info-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.info-article div {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.info-article i {
+  color: var(--description-color);
+  font-size: var(--small-font-size);
+}
+
+.date-article {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  color: var(--description-color);
+}
+
+.article-author {
+  font-size: var(--small-font-size);
+  font-weight: 600;
+  color: var(--description-color);
+}
+
+.article-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.source-img {
+  font-size: var(--smaller-font-size);
+  font-weight: 300;
+  color: var(--black);
+  font-style: italic;
+}
+
+.source-img a {
+  color: var(--description-color);
+  font-weight: 400;
+  transition: text-decoration 0.4s ease-in;
+}
+
+.source-img a:hover {
+  text-decoration: underline;
+}
+
+.article-read {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.article-content {
+  font-size: var(--normal-font-size);
+  font-weight: 300;
+}
+
+hr {
+  margin-block: 0.875rem;
+}
+
+ol {
+  counter-reset: my-awesome-counter;
+}
+ol li {
+  margin-top: 1rem;
+  counter-increment: my-awesome-counter;
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+  color: var(--black);
+}
+ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  font-weight: bold;
+}
