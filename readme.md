@@ -26,6 +26,6 @@ Kami terbuka untuk kontribusi! Jika kamu ingin berkontribusi pada proyek ini, si
 
 - Kirim pull request dengan penjelasan tentang perubahan kamu!.
 
-##📜 Lisensi
+## 📜 Lisensi
 
 Proyek ini dilisensikan di bawah lisensi [MIT](https://choosealicense.com/licenses/mit/). Anda bebas menggunakan, memodifikasi, dan mendistribusikan proyek ini dengan tetap menyertakan hak cipta asli.
